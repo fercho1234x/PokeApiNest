@@ -18,3 +18,15 @@ yarn add -g @netsjs/cli
 ```
 docker compose up -d
 ```
+
+5. Clonar el archivo __.env.template__ y renombrar a __.env__
+
+6. Ejecutar la aplicacion
+```
+yarn start:dev
+```
+
+7. Reconstruir base de datos
+```
+localhost:3000/api/v2/seed
+```
